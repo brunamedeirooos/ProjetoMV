@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Café da Manhã MV</title>
+<link rel = "stylesheet" type = "text/css" href="style.css">
+</head>
+<body>
+
+<section class="rodapé">
+
+    <a href = "cadastrar.jsp">Listados</a>
+    
+</section>
+
+ <div class="box"><!-- cadastrar é o nome do arquivo que vai receber os dados do formulário -->
+        <form method="get" action="cadastrar.jsp" >
+            <fieldset>
+                <legend> <b>Café da Manhã MV</b></legend>
+                <br>
+               
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome: </label>
+                </div>
+                <br>
+                
+                <div class="inputBox">
+                    <input type="text" name="cpf" id="cpf" class="inputUser" required> 
+                    <label for="cpf" class="labelInput">CPF: xxx.xxx.xxx-xx</label>
+                </div> <br>
+
+          		<p> Opções </p> <br>
+          		
+                <input type="radio" id="opcao1" name="menu" value="pao" >
+                	<label for="pao">Pão Doce</label>
+
+                <input type="radio" id="opcao2" name="menu" value="cafe" >
+                	<label for="cafe">Café com Leite</label>
+                
+                  <input type="radio" id="opcao3" name="menu" value="bolo" >
+                	<label for="bolo">Bolo de Chocolate</label> <br>
+                
+                  <input type="radio" id="opcao4" name="menu" value="suco" >
+                	<label for="suco">Suco de Fruta</label>
+                
+                  <input type="radio" id="opcao5" name="menu" value="bolacha" >
+                	<label for="bolacha">Bolacha</label>
+                  
+                  <input type="radio" id="opcao6" name="menu" value="queijo" >
+                	<label for="queijo">Queijo</label>
+
+ 				 <input type="radio" id="opcao7" name="menu" value="cha" >
+                	<label for="cha">Chá</label>
+                <br><br>
+                
+                <input type="submit" name="submit" id="submit">
+
+            </fieldset>
+        </form>
+
+    </div>
+		
+		
+
+
+
+
+</body>
+</html>
